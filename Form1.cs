@@ -18,6 +18,12 @@ namespace NotePad
             InitializeComponent();
         }
 
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
         private void btnOpen_Click(object sender, EventArgs e)
         {
             openFileDialog1.Title = "選擇檔案";
